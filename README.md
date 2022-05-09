@@ -22,6 +22,5 @@
 **2. Lack of Security**
 - lack of security, till now i have hard coded ip and port for client peer to connect to the "liquidity providing"(LP) peer for exchange, we must figure out a way to securely store ip and port of every LP peer on every client peer.
 
-The benefit of such will be that we wont need a central server for matchmaking every client peer to every LP peer
+The benefit of such will be that we wont need a central server for matchmaking every client peer to every LP peer.
 
-And no one can execute any negative activity on LP peers 
