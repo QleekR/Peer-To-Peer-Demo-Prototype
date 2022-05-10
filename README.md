@@ -19,8 +19,12 @@
 
 - we need to test transactions with real cryptocurrency wallets and payment gateways rather than using hypothetical json files as wallets and gateways.
 
-**2. Lack of Security**
-- lack of security, till now i have hard coded ip and port for client peer to connect to the "liquidity providing"(LP) peer for exchange, we must figure out a way to securely store ip and port of every LP peer on every client peer.
+**2. Storing LP peers IP and Port**
+- Till now i have hard coded ip and port for client peer to connect to the "liquidity providing"(LP) peer for exchange, we must figure out a way to securely store ip and port of every LP peer on every client peer.
+
+- Initial plan is to update Client code everytime a new LP peer is added.
+
+- We need a way in which only client code can know what LP peer's IP and Port is.
 
 - The benefit of such will be that we wont need a central server for matchmaking every client peer to every LP peer.
 
