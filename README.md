@@ -19,7 +19,7 @@
 
 - we need to test transactions with real cryptocurrency wallets and payment gateways rather than using hypothetical json files as wallets and gateways.
 
-**2. Storing LP peers IP and Port**
+**2. Storing LP peer's IP and Port for Client peer to connect and execute exchange**
 - Till now i have hard coded ip and port for client peer to connect to the "liquidity providing"(LP) peer for exchange, we must figure out a way to securely store ip and port of every LP peer on every client peer.
 
 - Initial plan is to update Client code everytime a new LP peer is added.
