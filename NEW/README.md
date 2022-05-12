@@ -11,7 +11,8 @@
 - Run the LP.py first, as it presents the peer which will act as a liquidity pool for the exchange.
 - Then, run Client.py and do as program prompts.
 
-Based on this Client---LiquidityPool Peer-to-Peer Architecture
+## Based on this Client---LiquidityPool Peer-to-Peer Architecture =>
+
 ![unknown](https://user-images.githubusercontent.com/78173760/168056745-c03d7b27-b020-4baa-af7e-0e3f7f5ce47d.png)
 
 
